@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Gamepad2, GamepadIcon, BookOpen, Puzzle, Car, Clock } from 'lucide-react';
 import GameCard from '../components/GameCard';
 import type { Game } from '../types';

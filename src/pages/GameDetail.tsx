@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Star, Users, Maximize2, X } from 'lucide-react';
+import { ArrowLeft, Maximize2, X } from 'lucide-react';
 
 interface GameDetailProps {
   games: Array<any>;
@@ -36,14 +36,14 @@ const GameDetail: React.FC<GameDetailProps> = ({ games }) => {
             <div className="flex items-center justify-between mb-4">
               <h1 className="text-3xl font-bold text-gray-800">{game.title}</h1>
               <div className="flex items-center space-x-4">
-                <span className="flex items-center text-yellow-500">
+                {/* <span className="flex items-center text-yellow-500">
                   <Star className="h-5 w-5 fill-current mr-1" />
                   {game.rating}
                 </span>
                 <span className="flex items-center text-gray-600">
                   <Users className="h-5 w-5 mr-1" />
                   {game.ageRange.min}-{game.ageRange.max} years
-                </span>
+                </span> */}
               </div>
             </div>
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Star } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import type { Game } from '../types';
 
@@ -19,10 +18,10 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
         <div className="p-4">
           <div className="flex items-center justify-between">
             <h3 className="text-lg font-semibold text-gray-800">{game.title}</h3>
-            <span className="flex items-center text-yellow-500">
+            {/* <span className="flex items-center text-yellow-500">
               <Star className="h-4 w-4 fill-current" />
               {game.rating}
-            </span>
+            </span> */}
           </div>
           <p className="text-sm text-gray-600 mt-2">{game.description}</p>
           <div className="mt-4 flex items-center justify-between">
