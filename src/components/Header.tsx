@@ -1,5 +1,5 @@
 import React from 'react';
-import { TowerControl as Gamepad2Icon, GithubIcon, InstagramIcon, Menu } from 'lucide-react';
+import { GithubIcon, InstagramIcon, Menu } from 'lucide-react';
 
 const Header: React.FC = () => {
   return (
@@ -7,10 +7,9 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <Gamepad2Icon className="h-8 w-8" />
+            <img src="logos/nobg.ico" alt="Logo" className="w-12 h-12" />
             <a href="https://okuldaoyna.vercel.app/"><h1 className="text-2xl font-bold">Okulda Oyna</h1></a>
-          </div>
-          
+</div>
           <nav className="hidden md:flex items-center space-x-6">
             <a href="https://instagram.com/sagokajmert" className="flex items-center space-x-1 hover:text-indigo-200 transition">
             <InstagramIcon className="h-5 w-5" />
