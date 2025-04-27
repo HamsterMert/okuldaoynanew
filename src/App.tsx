@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import { Search, Gamepad2, Car, GamepadIcon, Book, Puzzle, Clock } from 'lucide-react';
 import Header from './components/Header';
 import GameCard from './components/GameCard';
+import Footer from './components/Footer';
 import GameDetail from './pages/GameDetail';
 import Categories from './pages/Categories';
 
@@ -252,13 +253,19 @@ function App() {
                   ))}
                 </div>
               </section>
+              <Footer />
             </main>
+            
           } />
+          
           <Route path="/categories" element={<Categories games={SAMPLE_GAMES} />} />
           <Route path="/game/:id" element={<GameDetail games={SAMPLE_GAMES} />} />
         </Routes>
+        
       </div>
+      
     </BrowserRouter>
+
   );
 }
 
