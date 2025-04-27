@@ -1,0 +1,12 @@
+{
+      id: '1',
+      title: 'Snow Rider 3D',
+      description: 'Kızak ile engellere çarpmadan sona ulaşmaya çalış.',
+      category: 'car',
+      subject: 'parkour',
+      thumbnail: '',
+      gameUrl: '',
+      rating: 0.0,
+      teacherRecommended: false,
+      ageRange: { min: 8, max: 12 }
+    }
