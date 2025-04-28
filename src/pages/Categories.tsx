@@ -1,6 +1,7 @@
 import React from 'react';
 import { Gamepad2, GamepadIcon, BookOpen, Puzzle, Car, Clock } from 'lucide-react';
 import GameCard from '../components/GameCard';
+import Footer from '../components/Footer';
 import type { Game } from '../types';
 
 interface CategoriesProps {
@@ -113,9 +114,13 @@ const Categories: React.FC<CategoriesProps> = ({ games }) => {
               Bu kategoride oyun bulunamadı.
             </p>
           </div>
+          
         )}
       </section>
+      <br></br>
+      <Footer />
     </div>
+    
   );
 };
 

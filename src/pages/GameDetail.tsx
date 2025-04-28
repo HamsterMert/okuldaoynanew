@@ -95,13 +95,16 @@ const GameDetail: React.FC<GameDetailProps> = ({ games }) => {
               <X className="h-6 w-6 text-white" />
             </button>
           </div>
+          
           <iframe
             src={game.gameUrl}
             className="w-full h-full border-0"
             allow="fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           />
+          
         </div>
+        
       )}
     </>
   );
