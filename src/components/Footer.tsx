@@ -10,10 +10,10 @@ export default function Footer() {
         </div>
 
         <div style={linksStyle}>
-          <a href="https://okuldaoyna.vercel.app/" style={linkStyle}>Anasayfa</a>
+          <a href="/" style={linkStyle}>Anasayfa</a>
           <a href="#" style={linkStyle}>Hakkında</a>
-          <a href="https://okuldaoyna.vercel.app/contact" style={linkStyle}>İletişim</a>
-          <a href="#" style={linkStyle}>Gizlilik</a>
+          <a href="/contact" style={linkStyle}>İletişim</a>
+          <a href="/embed" style={linkStyle}>Özel Oyun</a>
         </div>
 
         <p style={copyright}>

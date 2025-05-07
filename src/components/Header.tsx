@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { GithubIcon, InstagramIcon, Menu, X } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,9 +13,11 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <img src="/logos/nobg.png" alt="Logo" className="w-12 h-12" />
-            <a href="https://okuldaoyna.vercel.app/">
+            
+            {/* Link ile yönlendirme */}
+            <Link to="/">
               <h1 className="text-2xl font-bold">Okulda Oyna</h1>
-            </a>
+            </Link>
           </div>
 
           {/* Normal Navigation */}
