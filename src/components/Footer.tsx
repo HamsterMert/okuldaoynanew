@@ -11,7 +11,7 @@ export default function Footer() {
 
         <div style={linksStyle}>
           <a href="/" style={linkStyle}>Anasayfa</a>
-          <a href="#" style={linkStyle}>Hakkında</a>
+          <a href="/about" style={linkStyle}>Hakkında</a>
           <a href="/contact" style={linkStyle}>İletişim</a>
           <a href="/embed" style={linkStyle}>Özel Oyun</a>
         </div>

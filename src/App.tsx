@@ -9,6 +9,9 @@ import GameDetail from './pages/GameDetail';
 import Categories from './pages/Categories';
 import Contact from './pages/Contact';
 import Embed from './pages/Embed';
+import About from './pages/About';
+import NotFound from './pages/404';
+
 
 import Games from './data/Games';
 
@@ -103,6 +106,8 @@ function App() {
           <Route path="/game/:id" element={<GameDetail games={Games} />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/embed" element={<Embed />} />
+          <Route path="/about" element={<About />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </BrowserRouter>
