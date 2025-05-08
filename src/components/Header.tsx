@@ -12,7 +12,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <img src="/logos/nobg.png" alt="Logo" className="w-12 h-12" />
+            <img src="../../../public/images/nobg.png" alt="Logo" className="w-12 h-12" />
             
             {/* Link ile yönlendirme */}
             <Link to="/">
