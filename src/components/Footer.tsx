@@ -5,7 +5,7 @@ export default function Footer() {
     <footer style={footerStyle}>
       <div style={containerStyle}>
         <div style={logoStyle}>
-          <img src="/images/logo.png" alt="Okulda Oyna" style={imgStyle} />
+          <img src="/images/nobg.png" alt="Okulda Oyna" style={imgStyle} />
           <h2 style={titleStyle}>Okulda Oyna</h2>
         </div>
 
