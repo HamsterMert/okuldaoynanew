@@ -12,7 +12,6 @@ import Embed from './pages/Embed';
 import About from './pages/About';
 import NotFound from './pages/404';
 
-
 import Games from './data/Games';
 
 const CATEGORIES = [
@@ -95,7 +94,6 @@ function App() {
                       ))}
                     </div>
                   </section>
-
                   <Footer />
                 </div>
               </main>
@@ -107,7 +105,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/embed" element={<Embed />} />
           <Route path="/about" element={<About />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="*" element={<NotFound />} /> 
         </Routes>
       </div>
     </BrowserRouter>
