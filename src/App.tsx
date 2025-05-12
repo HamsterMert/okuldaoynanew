@@ -11,7 +11,6 @@ import Contact from './pages/Contact';
 import Embed from './pages/Embed';
 import About from './pages/About';
 import NotFound from './pages/404';
-import Admin from './pages/Admin';
 
 import Games from './data/Games';
 
@@ -127,7 +126,6 @@ function App() {
             <Route path="/embed" element={<Embed />} />
             <Route path="/about" element={<About />} />
             <Route path="*" element={<NotFound />} />
-            <Route path="/admin" element={<Admin />} />
           </Routes>
         </main>
         <Footer />
